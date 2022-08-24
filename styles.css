@@ -11,6 +11,11 @@ img {
     max-height: 150px;
 }
 
+.main_image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
 
 body {
     height: 100vh;
@@ -27,6 +32,7 @@ body {
     color: white;
     align-items: center;
     padding-top: 20px;
+
 }
 
 .header ul {
@@ -37,16 +43,27 @@ body {
 
 }
 
+.header p {
+    font-size: 24px;
+}
+
+
+
 .footer {
     display: flex;
     justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
     background-color: #1f2937;
     color: white;
     align-items: center;
 
     margin-top: auto;
+
+    padding-left: 200px;
+    padding-right: 200px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 
@@ -59,12 +76,16 @@ body {
     color: white;
     padding-top: 40px;
     padding-bottom: 40px;
+
+    align-items: center;
 }
 
 .heroleft {
     display: flex;
     flex-direction: column;
     padding-right: 40px;
+
+    flex-grow: 1;
 }
 
 .heroleft button {
@@ -80,9 +101,10 @@ body {
 }
 
 .heroleft p {
-    font-size: small;
+    font-size: 18px;
     color: #b1b8c8;
 }
+
 
 
 .information {
@@ -94,17 +116,25 @@ body {
     text-align: center;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
 .cards_info {
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
     gap: 40px;
-    font-size: medium;
+    font-size: large;
 }
 
 .card img {
     border: 5px solid rgb(0, 0, 0);
     border-radius: 8px;
     margin-bottom: 7px;
+    max-width: 200px;
+    max-height: 200px;
 
 }
 
@@ -120,12 +150,13 @@ body {
 
     text-align: center;
     color: #414449;
+    font-size: 36px;
 }
 
 .person{
     text-align: right;
     font-weight: bolder;
-    font-size: large;
+    font-size: 30px;
     color: black;
 }
 
@@ -151,6 +182,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    font-size: 18px;
     
 }
 
@@ -163,4 +195,10 @@ body {
     border-radius: 8px;
     border: 1px solid white;
     font-size:medium;
+}
+
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
 }
