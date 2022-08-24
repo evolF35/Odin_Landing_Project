@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -15,6 +16,74 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 16px;
 
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+
+    margin-top: auto;
+}
+
+
+.hero {
+
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.heroleft button {
+    background-color: #3882f6;
+    color: white;
+    align-self: flex-start;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: black;
+    margin-top: 10px;
+    font-size:medium;
+}
+
+.heroleft p {
+    font-size: small;
+    color: #b1b8c8;
+}
+
+
+
 
