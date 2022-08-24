@@ -21,8 +21,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #1f2937;
     color: white;
     align-items: center;
@@ -40,8 +40,8 @@ body {
 .footer {
     display: flex;
     justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #1f2937;
     color: white;
     align-items: center;
@@ -53,8 +53,8 @@ body {
 .hero {
 
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #1f2937;
     color: white;
     padding-top: 40px;
@@ -85,5 +85,82 @@ body {
 }
 
 
+.information {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.cards_info {
+    padding-top: 20px;
+    display: flex;
+    gap: 40px;
+    font-size: medium;
+}
+
+.card img {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-bottom: 7px;
+
+}
 
 
+
+
+.quote {
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #e5e7eb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    text-align: center;
+    color: #414449;
+}
+
+.person{
+    text-align: right;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+}
+
+
+
+.call_to_action {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content {
+    margin: 20px;
+    background-color: #3882f6;
+    padding: 70px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.content button{
+    background-color: #3882f6;
+    color: white;
+    align-self: flex-end;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size:medium;
+}
